@@ -1,0 +1,122 @@
+body{
+    font-family: monospace;
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(83, 83, 83);
+}
+
+#list{
+    text-align: center;
+    margin-right: 30px;
+}
+
+#contact{
+    font-size: 24px;
+    border: 2px none black;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 1px 1px rgba(41, 41, 41, 0.12), 
+    0 2px 2px rgba(41, 41, 41, 0.12), 
+    0 4px 4px rgba(41, 41, 41, 0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+    padding: 2px 0px 2px 5px;
+    background-color: white;
+    list-style-type: none;
+    margin-top: 15px;
+    display: flex;
+}
+
+#contact:hover{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 92%;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.delete_button{
+    display: flex;
+    align-items: center;
+    width: 8%;
+    padding: 3px;
+    justify-content: center;
+
+}
+
+a{
+    color: rgb(192, 53, 53);
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+#inp{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgb(160, 158, 158);
+    margin-top: 50px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    height: 30px;
+    width: 43%;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: rgba(31, 31, 31);
+    color: seashell;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    font-size: 16px;
+    font-family:Verdana,sans-serif ;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 
+    0 2px 2px rgba(0, 0, 0, 0.2), 
+    0 4px 4px rgba(0, 0, 0, 0.2), 
+    0 8px 8px rgba(0,0,0,0.2),
+    0 16px 16px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background-color: teal;
+    transition: 0.2s ease;
+}
+
+#phone{
+    color:teal;
+}
+
+#phone:hover{
+    color: rgb(255, 233, 135);
+}
+
+#form{
+    text-align: center;
+}
+
+#delete:hover{
+    background-color: rgb(182, 62, 41);
+}
+
